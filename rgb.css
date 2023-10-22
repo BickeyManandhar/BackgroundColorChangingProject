@@ -1,0 +1,67 @@
+body {
+  
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: white;
+}
+
+#btn1 {
+  padding: 10px 20px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#btn2 {
+  padding: 10px 20px;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#btn1:hover,
+#btn2:hover {
+  background-color: #2980b9;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  /* Stack buttons vertically */
+  justify-content: center;
+  align-items: center;
+  /* Center buttons horizontally */
+  margin: 10px;
+  /* Add some spacing between button containers */
+  height: 10vh;
+}
+
+h2 {
+  text-align: center; /* Center the text horizontally */
+  font-size: 28px; /* Adjust the font size as needed */
+  margin-top: 20px; /* Add space from the top */
+  color: black; /* Change the text color */
+  font-family: Arial, sans-serif; /* Specify a font family */
+}
+
+h3 {
+  position: absolute;
+  bottom: 10px;
+  /* Adjust the distance from the bottom as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  color: black;
+  /* You can use a subdued color for a professional look */
+  font-family: Arial, sans-serif;
+}
